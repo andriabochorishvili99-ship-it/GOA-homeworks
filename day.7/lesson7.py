@@ -56,23 +56,19 @@ op = input('enter operation(+ , - , * , // ): ')
 
 if op == '+':
     print(num1 + num2)
-    print('wrong')
-    int(input('try again: '))
+    
 
 elif op == '-':
     print(num1- num2)
-    print('wrong')
-    int(input('try again: '))
+    
 
 elif op == '*':
     print(num1 * num2)
-    print('wrong')
-    int(input('try again: '))
+    
 
 elif op == '//':
     print(num1 // num2)
-    print('wrong')
-    int(input('try again: '))
+   
 
 else:
     print('wrong operation')
