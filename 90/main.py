@@ -1,41 +1,17 @@
-def fizz_buzz(n):
-    result = []
+# 1) შექმენით სია სადაც მოათავსებთ მნიშვნელობებს (სადაც გექნებათ მინიმუმ 10 მონაცემი და მინიმუმ 2 მათგანი მეორდება), მაგ: names = ["Saba", "NIka", "Saba", "Giorgi", "Nia", "Mariami", "Nia", "Saba", "Lasha", "Levani"].
 
-    for i in range(1, n + 1):
+# for ციკლის და პირობითი ოპერატორის გამოყენებით დაითვალეთ რამდენჯერ მეორდება "Saba" ამ მასივში, საბოლოოდ გამოიტანეთ ამ ელემენტის რაოდენობა სიაში.
 
-        # Check if i is divisible by both 3 and 5
-        if i % 3 == 0 and i % 5 == 0:
+name = ['andria', 'luka' , 'giorgi', 'lasha' , 'andria', 'luka' , 'saba' 'gurami' 'nika' 'zaza']
 
-            # Add "FizzBuzz" to the result list
-            result.append("FizzBuzz")
-
-        # Check if i is divisible by 3
-        elif i % 3 == 0:
-
-            # Add "Fizz" to the result list
-            result.append("Fizz")
-
-        # Check if i is divisible by 5
-        elif i % 5 == 0:
-
-            # Add "Buzz" to the result list
-            result.append("Buzz")
-        else:
-
-            # Add the current number as a string to the result list
-            result.append(str(i))
-    return result
-
-n = 10
-result = fizz_buzz(n)
-print(' '.join(result))
+count = 0
 
 
+for name in name:
+    if name == 'andria':
+        count += 1
 
-
-
-
-
+print(count)
 
 
 
